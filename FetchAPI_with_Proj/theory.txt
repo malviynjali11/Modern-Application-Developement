@@ -1,0 +1,28 @@
+----------------------------------------------------------fetch API-------------------------------------------------------------
+
+API - Application Programming Interface
+The fetch API provides an interface for fetching (sending/receiving) resources.
+It uses Request and Response objects.
+The fetch() method is used to fetch a resource (data).
+
+let promise = fetch(url, [options])
+
+----------------------------------------------------Understanding Terms---------------------------------------------------------
+
+AJAX - It is Asynchronous JS & XML
+AJAJ - It is Asynchronous JS & json
+JSON - is Javascript Object Notation
+json() method : returns a second promise that resolves with the result of parsing the Response body text as JSON.(Input is JSON,
+Output is JS object)
+First our Response comes in JSON format ---> then we need to convert it into JSON object . (json() method helps in this)
+
+-----------------------------------------------------Requests And Response------------------------------------------------------
+
+HTTP (Hyper Text Transfer Protocol) verbs
+Response Status Code 
+1. Informational responses(100 - 199)
+2. Successful responses (200 - 299)
+3. Redirectional messages (300 - 399)
+4. Client Error responses (400 - 499)
+5. Server Error responses (500 - 599)
+HTTP response headers also contains details about the responses, such as content type, HTTP status code etc.
